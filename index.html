@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>E-ticaret</h1>
+        <input type="text" placeholder="Ürün ismi giriniz">
+        <div>
+            <button id="open-button">Sepet</button>
+            <button>Kayıt Ol</button>
+            <button>Giriş Yap</button>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- KATEGORİLER -->
+    <main>
+        <div  class="category-wrapper">
+            <h1>Kategoriler</h1>
+            <div class="categories" id="category-list"></div>
+        </div>
+   
+    <!-- KATEGORİLER -->
+
+
+    <!--? ÜRÜNLER  -->
+    <div class="product-wrapper">
+        <h1>Ürünler</h1>
+        <div class="products" id="products"></div>
+
+
+    </div>
+
+    </div>
+
+    <!--? ÜRÜNLER  -->
+
+    <!--! MODAL -->
+
+    <div id="modal" class="modal-wrapper">
+        <div class="modal">
+            <img id="close-button" src="/close.png" alt="">
+            <div class="modal-list"></div>
+            <div class="total">Toplam: <span id="total-price"></span> TL</div>
+
+        </div>
+
+    </div>
+
+    <!--! MODAL -->
+
+
+
+</main>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
